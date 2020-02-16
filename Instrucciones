@@ -1,0 +1,3 @@
+Copien el archivo nombre.txt a la carpeta donde python este ejecutandose eso lo pueden ver importanto la libreria os con "import.os"
+Corren un "print(os.getcwd())" este les dara un input con la carpeta de python ahi copian el archivo de texto
+Cualquier duda mandenla al grupo
