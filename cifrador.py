@@ -41,6 +41,7 @@ def generar_cifrador(offset):
 
 
 #Completa esta funcion (quita # para activar)
+print(os.getcwd())
 try:
     archivo = open("nombre.txt", "r")
     lista = archivo.readline()
@@ -61,17 +62,19 @@ def cifrar(palabra, cifrador):
     print(palabra_cifrada)
     print(' '.join(palabra_cifrada))
 
-    
-    
+def conentenidoCifrador(cifrador):
+    for item in cesar3:
+        print(f"Letra: {item}  Letra cifrada: {cesar3[item]}")
 
-def curp():
-    nombre = ["a","l","e","x"," ","v","i","l","l","a", " ","o","c","a"]
-    curp = []
-    #print(nombre)
-    for letra in nombre:
-        nombre.pop()
-    print(nombre)
-curp()
+
+def curp(palabra):
+    palabra.sort(reverse = True)
+    print(palabra)
+
+
+curp(lista)
+#cifrar(lista,cesar3)
+#conentenidoCifrador(cesar3)
 #cifrar(lista, cesar3)
 #Completa esta funcion (quita # para activar)
 #def mostrar_cifrador(cifrador):
